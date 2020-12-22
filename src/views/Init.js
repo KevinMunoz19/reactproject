@@ -60,13 +60,13 @@ const Init = () => {
 
 
             <TouchableOpacity style={styles.sendButtonP} >
-              <Text style={{color:'white',textAlign:'center',fontSize:environmentVariables.sunmiApp ? 20:25, fontFamily:'SansationBold'}} allowFontScaling={false}>Ingresa tu NIT</Text>
+              <Text style={{color:'white',textAlign:'center',fontSize:environmentVariables.sunmiApp ? 20:25}} allowFontScaling={false}>Ingresa tu NIT</Text>
             </TouchableOpacity>
 
 
 
 						<TouchableOpacity style={styles.sendButton} >
-              <Text style={{color:colorPalette.rgbColorPurple, textAlign:'center', fontSize:environmentVariables.sunmiApp ? 20:25, fontFamily:'SansationBold'}} allowFontScaling={false}>Iniciar Sesion</Text>
+              <Text style={{color:colorPalette.rgbColorPurple, textAlign:'center', fontSize:environmentVariables.sunmiApp ? 20:25}} allowFontScaling={false}>Iniciar Sesion</Text>
             </TouchableOpacity>
 
 

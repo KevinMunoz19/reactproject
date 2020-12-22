@@ -44,7 +44,7 @@ def flipper_post_install(installer)
   end
 end
 
-target 'reactproject' do
+target 'reactproject123' do
   # Pods for reactproject
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
@@ -77,7 +77,7 @@ target 'reactproject' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'reactprojectTests' do
+  target 'reactproject123Tests' do
     inherit! :complete
     # Pods for testing
   end
@@ -94,10 +94,10 @@ target 'reactproject' do
   end
 end
 
-target 'reactproject-tvOS' do
+target 'reactproject123-tvOS' do
   # Pods for reactproject-tvOS
 
-  target 'reactproject-tvOSTests' do
+  target 'reactproject123-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

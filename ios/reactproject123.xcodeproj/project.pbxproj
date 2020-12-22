@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* reactprojectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactprojectTests.m */; };
-		089E3CB4B069F298525ED295 /* libPods-reactproject-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 185EC054004D0D6EA14F806E /* libPods-reactproject-tvOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2A8B2133F267046B84E5FE42 /* libPods-reactproject-reactprojectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C91ACE2A601F7942F668AB3 /* libPods-reactproject-reactprojectTests.a */; };
+		2CD2551550B0162D66E8A22D /* libPods-reactproject123-reactproject123Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABFB9E5CBC6068ACF0ECB65 /* libPods-reactproject123-reactproject123Tests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* reactprojectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactprojectTests.m */; };
-		7D18539F962C570129D83C7C /* libPods-reactproject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F59DB9049D5ED9D734394DE /* libPods-reactproject.a */; };
-		9270017FABB8951A7F222692 /* libPods-reactproject-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56429FB7090E248878A0AFA9 /* libPods-reactproject-tvOS.a */; };
+		4539AD2EB0F04825A7181932 /* libPods-reactproject123-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69AD54C93EC72BE3E14C2AFF /* libPods-reactproject123-tvOSTests.a */; };
+		D5EC25B2252B9FCFEC2D411E /* libPods-reactproject123-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E386095606216CB04025E4 /* libPods-reactproject123-tvOS.a */; };
+		D8537007D3DC97DA741D5ADB /* libPods-reactproject123.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D54D3A4338BB9704D802928A /* libPods-reactproject123.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,18 +52,26 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactproject/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactproject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactproject/main.m; sourceTree = "<group>"; };
-		185EC054004D0D6EA14F806E /* libPods-reactproject-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactproject-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C91ACE2A601F7942F668AB3 /* libPods-reactproject-reactprojectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactproject-reactprojectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9A212B7023231C840ECFAE /* Pods-reactproject-reactprojectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject-reactprojectTests.release.xcconfig"; path = "Target Support Files/Pods-reactproject-reactprojectTests/Pods-reactproject-reactprojectTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* reactproject123-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reactproject123-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* reactproject123-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reactproject123-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31183C8CB89DB41B95C1FDDF /* Pods-reactproject-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject-tvOS.release.xcconfig"; path = "Target Support Files/Pods-reactproject-tvOS/Pods-reactproject-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		56429FB7090E248878A0AFA9 /* libPods-reactproject-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactproject-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1A5F4F5AA02762D49BB521 /* Pods-reactproject123-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject123-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-reactproject123-tvOSTests/Pods-reactproject123-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		457F58C3E96040F93FFB49A0 /* Pods-reactproject123.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject123.debug.xcconfig"; path = "Target Support Files/Pods-reactproject123/Pods-reactproject123.debug.xcconfig"; sourceTree = "<group>"; };
+		539C5F48BEB347889AA73F1E /* Pods-reactproject123-reactproject123Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject123-reactproject123Tests.release.xcconfig"; path = "Target Support Files/Pods-reactproject123-reactproject123Tests/Pods-reactproject123-reactproject123Tests.release.xcconfig"; sourceTree = "<group>"; };
 		57342AB25380AFB3FC02D2BB /* Pods-reactproject-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-reactproject-tvOSTests/Pods-reactproject-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69AD54C93EC72BE3E14C2AFF /* libPods-reactproject123-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactproject123-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABFB9E5CBC6068ACF0ECB65 /* libPods-reactproject123-reactproject123Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactproject123-reactproject123Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF7E70CDD285E9C9386B288 /* Pods-reactproject123-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject123-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-reactproject123-tvOSTests/Pods-reactproject123-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CE4D74F2AFBCFC31365F11C /* Pods-reactproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject.release.xcconfig"; path = "Target Support Files/Pods-reactproject/Pods-reactproject.release.xcconfig"; sourceTree = "<group>"; };
-		9F59DB9049D5ED9D734394DE /* libPods-reactproject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactproject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFFCD1B812FCEF83820CDAF /* Pods-reactproject123.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject123.release.xcconfig"; path = "Target Support Files/Pods-reactproject123/Pods-reactproject123.release.xcconfig"; sourceTree = "<group>"; };
+		A19CA39BA31522830D94AE34 /* Pods-reactproject123-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject123-tvOS.release.xcconfig"; path = "Target Support Files/Pods-reactproject123-tvOS/Pods-reactproject123-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		A1E386095606216CB04025E4 /* libPods-reactproject123-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactproject123-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A533A18AD08A30B1C20B9C2C /* Pods-reactproject123-reactproject123Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject123-reactproject123Tests.debug.xcconfig"; path = "Target Support Files/Pods-reactproject123-reactproject123Tests/Pods-reactproject123-reactproject123Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE1DA47C00452E20DFA89890 /* Pods-reactproject123-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject123-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-reactproject123-tvOS/Pods-reactproject123-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C71FB3E332FA4C71B9098A8F /* Pods-reactproject-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-reactproject-tvOS/Pods-reactproject-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D21B6CD582C4FD3FF6CA3860 /* Pods-reactproject-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-reactproject-tvOSTests/Pods-reactproject-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D54D3A4338BB9704D802928A /* libPods-reactproject123.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactproject123.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E69B5640CF120B390A89941F /* Pods-reactproject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject.debug.xcconfig"; path = "Target Support Files/Pods-reactproject/Pods-reactproject.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -74,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A8B2133F267046B84E5FE42 /* libPods-reactproject-reactprojectTests.a in Frameworks */,
+				2CD2551550B0162D66E8A22D /* libPods-reactproject123-reactproject123Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D18539F962C570129D83C7C /* libPods-reactproject.a in Frameworks */,
+				D8537007D3DC97DA741D5ADB /* libPods-reactproject123.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9270017FABB8951A7F222692 /* libPods-reactproject-tvOS.a in Frameworks */,
+				D5EC25B2252B9FCFEC2D411E /* libPods-reactproject123-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				089E3CB4B069F298525ED295 /* libPods-reactproject-tvOSTests.a in Frameworks */,
+				4539AD2EB0F04825A7181932 /* libPods-reactproject123-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +149,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				9F59DB9049D5ED9D734394DE /* libPods-reactproject.a */,
-				1C91ACE2A601F7942F668AB3 /* libPods-reactproject-reactprojectTests.a */,
-				56429FB7090E248878A0AFA9 /* libPods-reactproject-tvOS.a */,
-				185EC054004D0D6EA14F806E /* libPods-reactproject-tvOSTests.a */,
+				D54D3A4338BB9704D802928A /* libPods-reactproject123.a */,
+				6ABFB9E5CBC6068ACF0ECB65 /* libPods-reactproject123-reactproject123Tests.a */,
+				A1E386095606216CB04025E4 /* libPods-reactproject123-tvOS.a */,
+				69AD54C93EC72BE3E14C2AFF /* libPods-reactproject123-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,6 +201,14 @@
 				31183C8CB89DB41B95C1FDDF /* Pods-reactproject-tvOS.release.xcconfig */,
 				57342AB25380AFB3FC02D2BB /* Pods-reactproject-tvOSTests.debug.xcconfig */,
 				D21B6CD582C4FD3FF6CA3860 /* Pods-reactproject-tvOSTests.release.xcconfig */,
+				457F58C3E96040F93FFB49A0 /* Pods-reactproject123.debug.xcconfig */,
+				9FFFCD1B812FCEF83820CDAF /* Pods-reactproject123.release.xcconfig */,
+				A533A18AD08A30B1C20B9C2C /* Pods-reactproject123-reactproject123Tests.debug.xcconfig */,
+				539C5F48BEB347889AA73F1E /* Pods-reactproject123-reactproject123Tests.release.xcconfig */,
+				BE1DA47C00452E20DFA89890 /* Pods-reactproject123-tvOS.debug.xcconfig */,
+				A19CA39BA31522830D94AE34 /* Pods-reactproject123-tvOS.release.xcconfig */,
+				6AF7E70CDD285E9C9386B288 /* Pods-reactproject123-tvOSTests.debug.xcconfig */,
+				3C1A5F4F5AA02762D49BB521 /* Pods-reactproject123-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -390,7 +406,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactproject-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-reactproject123-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -426,7 +442,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactproject-reactprojectTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-reactproject123-reactproject123Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -448,7 +464,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactproject-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-reactproject123-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -470,7 +486,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactproject-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-reactproject123-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -582,7 +598,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B37DF9CD4942CFCF27475C8 /* Pods-reactproject-reactprojectTests.debug.xcconfig */;
+			baseConfigurationReference = A533A18AD08A30B1C20B9C2C /* Pods-reactproject123-reactproject123Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -605,7 +621,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E9A212B7023231C840ECFAE /* Pods-reactproject-reactprojectTests.release.xcconfig */;
+			baseConfigurationReference = 539C5F48BEB347889AA73F1E /* Pods-reactproject123-reactproject123Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -625,7 +641,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E69B5640CF120B390A89941F /* Pods-reactproject.debug.xcconfig */;
+			baseConfigurationReference = 457F58C3E96040F93FFB49A0 /* Pods-reactproject123.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -653,7 +669,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CE4D74F2AFBCFC31365F11C /* Pods-reactproject.release.xcconfig */;
+			baseConfigurationReference = 9FFFCD1B812FCEF83820CDAF /* Pods-reactproject123.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -675,7 +691,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C71FB3E332FA4C71B9098A8F /* Pods-reactproject-tvOS.debug.xcconfig */;
+			baseConfigurationReference = BE1DA47C00452E20DFA89890 /* Pods-reactproject123-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -703,7 +719,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31183C8CB89DB41B95C1FDDF /* Pods-reactproject-tvOS.release.xcconfig */;
+			baseConfigurationReference = A19CA39BA31522830D94AE34 /* Pods-reactproject123-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -731,7 +747,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57342AB25380AFB3FC02D2BB /* Pods-reactproject-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 6AF7E70CDD285E9C9386B288 /* Pods-reactproject123-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -758,7 +774,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D21B6CD582C4FD3FF6CA3860 /* Pods-reactproject-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 3C1A5F4F5AA02762D49BB521 /* Pods-reactproject123-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
