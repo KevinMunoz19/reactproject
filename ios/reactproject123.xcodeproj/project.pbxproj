@@ -41,11 +41,11 @@
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* reactprojectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactprojectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* reactproject123Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactproject123Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* reactprojectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactprojectTests.m; sourceTree = "<group>"; };
 		0B37DF9CD4942CFCF27475C8 /* Pods-reactproject-reactprojectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject-reactprojectTests.debug.xcconfig"; path = "Target Support Files/Pods-reactproject-reactprojectTests/Pods-reactproject-reactprojectTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* reactproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* reactproject123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactproject123.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = reactproject/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = reactproject/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -55,8 +55,8 @@
 		185EC054004D0D6EA14F806E /* libPods-reactproject-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactproject-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C91ACE2A601F7942F668AB3 /* libPods-reactproject-reactprojectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactproject-reactprojectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9A212B7023231C840ECFAE /* Pods-reactproject-reactprojectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject-reactprojectTests.release.xcconfig"; path = "Target Support Files/Pods-reactproject-reactprojectTests/Pods-reactproject-reactprojectTests.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* reactproject-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reactproject-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* reactproject-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reactproject-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* reactproject123-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reactproject123-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* reactproject123-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reactproject123-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31183C8CB89DB41B95C1FDDF /* Pods-reactproject-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject-tvOS.release.xcconfig"; path = "Target Support Files/Pods-reactproject-tvOS/Pods-reactproject-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		56429FB7090E248878A0AFA9 /* libPods-reactproject-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactproject-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57342AB25380AFB3FC02D2BB /* Pods-reactproject-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-reactproject-tvOSTests/Pods-reactproject-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* reactproject.app */,
-				00E356EE1AD99517003FC87E /* reactprojectTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* reactproject-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* reactproject-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* reactproject123.app */,
+				00E356EE1AD99517003FC87E /* reactproject123Tests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* reactproject123-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* reactproject123-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,9 +200,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* reactprojectTests */ = {
+		00E356ED1AD99517003FC87E /* reactproject123Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactprojectTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactproject123Tests" */;
 			buildPhases = (
 				55D1AD8B8F7758D4D221C1C5 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -214,14 +214,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = reactprojectTests;
+			name = reactproject123Tests;
 			productName = reactprojectTests;
-			productReference = 00E356EE1AD99517003FC87E /* reactprojectTests.xctest */;
+			productReference = 00E356EE1AD99517003FC87E /* reactproject123Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* reactproject */ = {
+		13B07F861A680F5B00A75B9A /* reactproject123 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactproject" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactproject123" */;
 			buildPhases = (
 				BF9A34F071022A1F527DE121 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -234,14 +234,14 @@
 			);
 			dependencies = (
 			);
-			name = reactproject;
+			name = reactproject123;
 			productName = reactproject;
-			productReference = 13B07F961A680F5B00A75B9A /* reactproject.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* reactproject123.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* reactproject-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* reactproject123-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactproject-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactproject123-tvOS" */;
 			buildPhases = (
 				290B3347C2290CDB5FE5A4A1 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -254,14 +254,14 @@
 			);
 			dependencies = (
 			);
-			name = "reactproject-tvOS";
+			name = "reactproject123-tvOS";
 			productName = "reactproject-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* reactproject-tvOS.app */;
+			productReference = 2D02E47B1E0B4A5D006451C7 /* reactproject123-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* reactproject-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* reactproject123-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactproject-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactproject123-tvOSTests" */;
 			buildPhases = (
 				85CC22CB8A9BB886AD496587 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -273,9 +273,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "reactproject-tvOSTests";
+			name = "reactproject123-tvOSTests";
 			productName = "reactproject-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* reactproject-tvOSTests.xctest */;
+			productReference = 2D02E4901E0B4A5D006451C7 /* reactproject123-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -305,7 +305,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactproject" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactproject123" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -318,10 +318,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* reactproject */,
-				00E356ED1AD99517003FC87E /* reactprojectTests */,
-				2D02E47A1E0B4A5D006451C7 /* reactproject-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* reactproject-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* reactproject123 */,
+				00E356ED1AD99517003FC87E /* reactproject123Tests */,
+				2D02E47A1E0B4A5D006451C7 /* reactproject123-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* reactproject123-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -557,12 +557,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* reactproject */;
+			target = 13B07F861A680F5B00A75B9A /* reactproject123 */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* reactproject-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* reactproject123-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -599,7 +599,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactproject.app/reactproject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactproject123.app/reactproject123";
 			};
 			name = Debug;
 		};
@@ -619,7 +619,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactproject.app/reactproject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactproject123.app/reactproject123";
 			};
 			name = Release;
 		};
@@ -643,8 +643,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = reactproject;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example123.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = reactproject123;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -666,8 +666,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = reactproject;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example123.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = reactproject123;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -751,7 +751,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.reactproject-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactproject-tvOS.app/reactproject-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactproject123-tvOS.app/reactproject123-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
@@ -778,7 +778,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.reactproject-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactproject-tvOS.app/reactproject-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactproject123-tvOS.app/reactproject123-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -830,6 +830,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
@@ -839,6 +840,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -883,6 +885,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
@@ -899,7 +902,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactprojectTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactproject123Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -908,7 +911,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactproject" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactproject123" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -917,7 +920,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactproject-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactproject123-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -926,7 +929,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactproject-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactproject123-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -935,7 +938,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactproject" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactproject123" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

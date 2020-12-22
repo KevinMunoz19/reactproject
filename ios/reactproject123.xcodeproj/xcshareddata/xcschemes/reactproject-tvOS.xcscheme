@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "reactproject-tvOS.app"
-               BlueprintName = "reactproject-tvOS"
-               ReferencedContainer = "container:reactproject.xcodeproj">
+               BuildableName = "reactproject123-tvOS.app"
+               BlueprintName = "reactproject123-tvOS"
+               ReferencedContainer = "container:reactproject123.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,12 +33,14 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "reactproject-tvOSTests.xctest"
-               BlueprintName = "reactproject-tvOSTests"
-               ReferencedContainer = "container:reactproject.xcodeproj">
+               BuildableName = "reactproject123-tvOSTests.xctest"
+               BlueprintName = "reactproject123-tvOSTests"
+               ReferencedContainer = "container:reactproject123.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -55,11 +57,13 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "reactproject-tvOS.app"
-            BlueprintName = "reactproject-tvOS"
-            ReferencedContainer = "container:reactproject.xcodeproj">
+            BuildableName = "reactproject123-tvOS.app"
+            BlueprintName = "reactproject123-tvOS"
+            ReferencedContainer = "container:reactproject123.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -72,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "reactproject-tvOS.app"
-            BlueprintName = "reactproject-tvOS"
-            ReferencedContainer = "container:reactproject.xcodeproj">
+            BuildableName = "reactproject123-tvOS.app"
+            BlueprintName = "reactproject123-tvOS"
+            ReferencedContainer = "container:reactproject123.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
