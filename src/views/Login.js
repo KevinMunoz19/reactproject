@@ -87,7 +87,7 @@ const Login = () =>{
 						setLoading(false);
 
 						// if (environmentVariables.gasApp){
-							Actions.loginuser();
+							//Actions.loginuser();
 						// }else{
 						// 	Actions.home();
 						// }
@@ -126,7 +126,7 @@ const Login = () =>{
 
 	useEffect(()=>{
 		console.log('AAAAAAAAAAAAAAAAA')
-      var query = `select * from loginusers`;
+      var query = `select * from users`;
       select(query,[],(dtes)=>{
 				console.log('Entrada Select')
 				console.log('Valores en db ',dtes)

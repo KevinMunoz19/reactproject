@@ -16,10 +16,12 @@ import colorPalette from '../utils/colors';
 
 import environmentVariables from '../utils/envVariables';
 
-
+import DB from '../utils/DB';
 
 const Init = () => {
 
+
+const {select,insert} = DB();
 
 
 
@@ -27,6 +29,7 @@ const Init = () => {
 	function blank(){
 
 	}
+
 
 	// <TouchableOpacity style={styles.sendButtonP} onPress={nativeComponent}>
 	// 	<Text style={{color:'white',textAlign:'center',fontSize:environmentVariables.sunmiApp ? 20:25, fontFamily:'SansationBold'}} allowFontScaling={false}>Android</Text>
