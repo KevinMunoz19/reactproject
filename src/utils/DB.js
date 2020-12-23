@@ -3,15 +3,15 @@ import {Platform} from 'react-native';
 import SQLite from 'react-native-sqlite-storage';
 
 var conn = null;
-if (Platform.OS == 'ios') {
+if (Platform.OS === 'ios') {
   var conn = SQLite.openDatabase(
     {name: 'example.db', createFromLocation: 1},
-    ok => {},
-    error => {},
+    ok => {console.log("conn ok")},
+    error => {console.log("conn err")},
   );
 } else {
   var conn = SQLite.openDatabase(
-    {name: 'test.db', createFromLocation: '~example.db'},
+    {name: 'example.db', createFromLocation: '~example.db'},
     ok => {},
     error => {},
   );

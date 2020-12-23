@@ -18,7 +18,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* reactprojectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactprojectTests.m */; };
 		4539AD2EB0F04825A7181932 /* libPods-reactproject123-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69AD54C93EC72BE3E14C2AFF /* libPods-reactproject123-tvOSTests.a */; };
-		5627AD9325939A8B000CE640 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 5627AD9225939A8B000CE640 /* www */; };
+		5627AD992593BBEC000CE640 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 5627AD982593BBEC000CE640 /* www */; };
 		D5EC25B2252B9FCFEC2D411E /* libPods-reactproject123-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E386095606216CB04025E4 /* libPods-reactproject123-tvOS.a */; };
 		D8537007D3DC97DA741D5ADB /* libPods-reactproject123.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D54D3A4338BB9704D802928A /* libPods-reactproject123.a */; };
 /* End PBXBuildFile section */
@@ -60,7 +60,7 @@
 		3C1A5F4F5AA02762D49BB521 /* Pods-reactproject123-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject123-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-reactproject123-tvOSTests/Pods-reactproject123-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		457F58C3E96040F93FFB49A0 /* Pods-reactproject123.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject123.debug.xcconfig"; path = "Target Support Files/Pods-reactproject123/Pods-reactproject123.debug.xcconfig"; sourceTree = "<group>"; };
 		539C5F48BEB347889AA73F1E /* Pods-reactproject123-reactproject123Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject123-reactproject123Tests.release.xcconfig"; path = "Target Support Files/Pods-reactproject123-reactproject123Tests/Pods-reactproject123-reactproject123Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5627AD9225939A8B000CE640 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = reactproject/www; sourceTree = "<group>"; };
+		5627AD982593BBEC000CE640 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = reactproject/www; sourceTree = "<group>"; };
 		57342AB25380AFB3FC02D2BB /* Pods-reactproject-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactproject-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-reactproject-tvOSTests/Pods-reactproject-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		69AD54C93EC72BE3E14C2AFF /* libPods-reactproject123-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactproject123-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABFB9E5CBC6068ACF0ECB65 /* libPods-reactproject123-reactproject123Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactproject123-reactproject123Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,7 +135,7 @@
 		13B07FAE1A68108700A75B9A /* reactproject */ = {
 			isa = PBXGroup;
 			children = (
-				5627AD9225939A8B000CE640 /* www */,
+				5627AD982593BBEC000CE640 /* www */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -357,7 +357,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5627AD9325939A8B000CE640 /* www in Resources */,
+				5627AD992593BBEC000CE640 /* www in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);

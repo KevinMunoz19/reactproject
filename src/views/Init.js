@@ -38,6 +38,15 @@ const {select,insert} = DB();
 		});
   },[])
 
+
+	useEffect(()=>{
+		console.log('AAAAAAAAAAAAAAAAA')
+			var query1 = `select * from users`;
+			select(query1,[],(dtess)=>{
+				console.log('Entrada Select')
+				console.log('Valores en db ',dtess)
+			})
+	},[])
 	// <TouchableOpacity style={styles.sendButtonP} onPress={nativeComponent}>
 	// 	<Text style={{color:'white',textAlign:'center',fontSize:environmentVariables.sunmiApp ? 20:25, fontFamily:'SansationBold'}} allowFontScaling={false}>Android</Text>
 	// </TouchableOpacity>
