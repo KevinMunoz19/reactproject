@@ -30,6 +30,13 @@ const {select,insert} = DB();
 
 	}
 
+	useEffect(()=>{
+		var query = `INSERT INTO users(name,token,nit,string_nit,is_logged) VALUES(?,?,?,?,?);`;
+		var fields = ["kevin","AAA","123456","12456",1];
+		insert(query,fields,(result)=>{
+			console.log("Valores insertados");
+		});
+  },[])
 
 	// <TouchableOpacity style={styles.sendButtonP} onPress={nativeComponent}>
 	// 	<Text style={{color:'white',textAlign:'center',fontSize:environmentVariables.sunmiApp ? 20:25, fontFamily:'SansationBold'}} allowFontScaling={false}>Android</Text>
