@@ -11,18 +11,59 @@ TouchableOpacity,
 import { Scene, Router, Stack, Tabs, Actions, ActionConst } from 'react-native-router-flux';
 import Init from './src/views/Init';
 import Login from './src/views/Login';
+import Home from './src/views/Home';
+
+
+import Icon from "react-native-vector-icons/MaterialIcons";
+import colorPalette from './src/utils/colors';
+import environmentVariables from './src/utils/envVariables';
 
 
 const App = () => {
-const [loading,setLoading] = useState(false);
-return (
-  <Router>
-    <Stack>
-      <Scene key="init" component={Init} hideNavBar={true} title="Inicio" initial={true}/>
-      <Scene key="login" component={Login} hideNavBar={true} title="Login"/>
-    </Stack>
-  </Router>
+  const [loading,setLoading] = useState(false);
+  return (
+    <Router>
+      <Stack>
+        <Scene key="init" component={Init} hideNavBar={true} title="Inicio" initial={true}/>
+        <Scene key="login" component={Login} hideNavBar={true} title="Login"/>
+        <Scene key="root" hideNavBar>
+          <Tabs key='Tabbar' tabs={true}  default='Main' tabBarPosition="bottom" upperCaseLabel={true} showLabel={true}
+                    tabBarStyle={styles.tabBar}
+                    activeBackgroundColor="white"
+                    inactiveBackgroundColor="white"
+                    labelStyle={{color: 'black', alignSelf: 'center', fontSize:environmentVariables.sunmiApp ? 8:10, fontFamily:'AcuminVariableConcept'}}
+                    allowFontScaling={false}
+                >
+            <Scene key="home" icon={HomeIcon} component={Home} hideNavBar={true} title="Home" lazy={true} />
+          </Tabs>
+      	</Scene>
+      </Stack>
+    </Router>
+  );
+
+
+  const HomeIcon = ()  => (
+
+  <Icon
+    name="home"
+    color={colorPalette.hexColorPurple}
+    size={environmentVariables.sunmiApp ? 25:35}/>
 );
 };
+
+const styles = StyleSheet.create({
+  tabBar: {
+    height: 40,
+    borderTopWidth: 0,
+    opacity: 0.98,
+
+  },
+  tabBarText: {
+    fontSize:10,
+    fontFamily: "SansationBold",
+    color:colorPalette.hexColorOrange,
+  },
+
+});
 
 export default App;

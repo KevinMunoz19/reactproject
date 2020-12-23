@@ -26,6 +26,9 @@ import environmentVariables from '../utils/envVariables';
 import useUser from './../utils/useUser';
 import useApi from './../utils/useApi';
 
+import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
+import Icon from "react-native-vector-icons/MaterialIcons";
+
 
 
 import DB from '../utils/DB';
@@ -34,7 +37,8 @@ import DB from '../utils/DB';
 
 const Login = () =>{
 
-
+	const windowWidth = Dimensions.get('window').width;
+		const windowHeight = Dimensions.get('window').height;
 
 	const [nit,setNit] = useState('');
 	const [username,setUsername] = useState('');
@@ -89,7 +93,7 @@ const Login = () =>{
 						// if (environmentVariables.gasApp){
 							//Actions.loginuser();
 						// }else{
-						// 	Actions.home();
+						 	Actions.home();
 						// }
 
 					});
@@ -132,6 +136,15 @@ const Login = () =>{
 				console.log('Valores en db ',dtes)
       })
   },[])
+	changeVisibility = ()=> {
+			if (!vis) {
+				setVis(true);
+			}else{
+				setVis(false);
+			}
+
+
+	}
 
 
 
@@ -147,7 +160,10 @@ const Login = () =>{
 
 
 				<View style={loginStyles.imageContainer}>
-
+				<Image
+					style={loginStyles.image}
+					source={require('../img/Logo1.png')}
+				/>
 				</View>
 
 
@@ -167,7 +183,10 @@ const Login = () =>{
 
 				<View style={loginStyles.formContainer}>
 					<View style={loginStyles.inputContainer}>
-
+					<Icon
+						name="fingerprint"
+						color={colorPalette.hexColorWhite}
+						size={environmentVariables.sunmiApp ? 20:25}/>
 						<TextInput
 							placeholder='NIT'
 							style={loginStyles.input}
@@ -180,7 +199,10 @@ const Login = () =>{
 						/>
 					</View>
 					<View style={loginStyles.inputContainer}>
-
+					<Icon
+						name="person-outline"
+						color={colorPalette.hexColorWhite}
+						size={environmentVariables.sunmiApp ? 20:25}/>
 						<TextInput
 							placeholder='Usuario'
 							style={loginStyles.input}
@@ -195,7 +217,11 @@ const Login = () =>{
 
 
 					<View style={loginStyles.inputContainerHalf}>
-
+					<Icon
+						name="vpn-key"
+						color={colorPalette.hexColorWhite}
+						size={environmentVariables.sunmiApp ? 20:25}
+					/>
 							<TextInput
 								placeholder='Contraseña'
 								style={loginStyles.inputHalf}
@@ -213,7 +239,12 @@ const Login = () =>{
 							onPress={changeVisibility}
 							style={loginStyles.halfListButton}
 						>
-
+						<Icon
+								name="visibility"
+								color={colorPalette.hexColorWhite}
+								size={environmentVariables.sunmiApp ? 15:20}
+								style={loginStyles.listIcon}
+							/>
 
 						</TouchableOpacity>
 
@@ -229,7 +260,9 @@ const Login = () =>{
 
 				</View>
 
-					<ActivityIndicator visible={false} size='large' color={colorPalette.color}/>
+				{(loading)&&(
+				<ActivityIndicator visible={false} size='large' color={colorPalette.color}/>
+			)}
 
 				<View style={loginStyles.buttonContainer}>
 					<TouchableOpacity style={loginStyles.button} onPress={handlerSend}>
@@ -251,6 +284,8 @@ const Login = () =>{
 
 	);
 }
+
+
 const loginStyles = StyleSheet.create({
 	headerContainer:{
     flex:1,
@@ -261,6 +296,7 @@ const loginStyles = StyleSheet.create({
 	textHeader:{
     color:colorPalette.hexColorWhite,
     fontSize:20,
+		fontFamily: 'SansationBold',
   },
   textHeaderContainer:{
     width:'50%',
@@ -277,6 +313,7 @@ const loginStyles = StyleSheet.create({
 	textHeaderSub:{
     color:colorPalette.hexColorWhite,
     fontSize:12,
+		fontFamily: 'AcuminVariableConcept',
 		alignItems:'center',
     justifyContent:'center',
 		textAlign: 'center',
@@ -297,7 +334,7 @@ const loginStyles = StyleSheet.create({
 	textHeaderPass:{
     color:colorPalette.hexColorWhite,
     fontSize:15,
-
+		fontFamily: 'SansationBold',
 		alignItems:'center',
     justifyContent:'center',
 		textAlign: 'center',
@@ -331,8 +368,8 @@ const loginStyles = StyleSheet.create({
 	//
 	// },
 	image: {
-		// width: (Dimensions.get('window').width*0.45),
-		// height: (Dimensions.get('window').height*0.22),
+		width: (Dimensions.get('window').width*0.45),
+		height: (Dimensions.get('window').height*0.22),
 		// width: wp('34%'),
 		// height: hp('19%'),
 		// width: wp('45%'),
@@ -368,9 +405,9 @@ const loginStyles = StyleSheet.create({
 	},
 	inputContainer:{
 		// paddingTop:'2%',
-		//width:Dimensions.get('window').width*0.7,
+		width:Dimensions.get('window').width*0.7,
 		//width: wp('70%'),
-		 width:'70%',
+		// width:'70%',
 		textAlign:'center',
 		flexDirection:'row',
 		alignItems:'center',
@@ -379,9 +416,9 @@ const loginStyles = StyleSheet.create({
 	},
 	inputContainerHalf:{
 		// paddingTop:'2%',
-		//width:Dimensions.get('window').width*0.7,
+		width:Dimensions.get('window').width*0.7,
 		// width: wp('70%'),
-		 width:'70%',
+		// width:'70%',
 		textAlign:'center',
 		flexDirection:'row',
 		alignItems:'center',
@@ -394,7 +431,7 @@ const loginStyles = StyleSheet.create({
 		// width: wp('100%'),
 		color:colorPalette.hexColorWhite,
     fontSize:20,
-
+		fontFamily: 'SansationBold',
 	},
 	inputHalf: {
 		flex: 3,
@@ -402,7 +439,7 @@ const loginStyles = StyleSheet.create({
 		borderBottomColor: '#DDDDDD',
 		color:colorPalette.hexColorWhite,
     fontSize:20,
-
+		fontFamily: 'SansationBold',
 		//borderBottomWidth: 1,
 	},
 	button:{
@@ -421,7 +458,7 @@ const loginStyles = StyleSheet.create({
 	buttonText:{
 		color:'white',
 		fontSize:20,
-
+		fontFamily:'SansationBold'
 	},
 
 
@@ -432,10 +469,10 @@ const loginStyles = StyleSheet.create({
 		alignItems:'center'
 	},
 	logoSub:{
-		width:'50%',
-		height:'20%',
-		// width: wp('40%'),
-		// height: hp('10%'),
+		//width:'50%',
+		//height:'20%',
+		width: wp('40%'),
+		height: hp('10%'),
 	},
 	halfInput: {
 		flex: 3,
@@ -457,39 +494,5 @@ const loginStyles = StyleSheet.create({
 		fontSize: 15
 	},
 });
-//
-	// const styles = StyleSheet.create({
-	// container:{
-	// 	flex: 1,
-	// 	flexDirection:'column',
-	//   alignItems: 'center',
-	// 	justifyContent: 'flex-start',
-	// },
-	// input:{
-	// 	textAlign: 'center',
-	// 	width:'80%',
-	// 	marginTop:'5%',
-	// 	marginBottom:'5%',
-	// 	backgroundColor : 'rgb(235, 235, 235)',
-	// 	borderRadius:9,
-	// 	shadowOpacity: 0.75,
-	//   shadowRadius: 5,
-	//   shadowColor: 'red',
-	//   shadowOffset: { height: 0, width: 0 }
-	// },
-	// logo:{
-	// 	width:'80%',
-	// 	height:'20%',
-	// 	resizeMode: 'contain',
-	// },
-	// sendButton:{
-	// 	backgroundColor:'#f06f17',
-	// 	width:'40%',
-	// 	height:'15%',
-	// 	textAlign: 'center',
-	// 	justifyContent: 'center',
-	// 	borderRadius:9
-	// },
-	// })
 
 export default Login;

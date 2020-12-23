@@ -13,12 +13,13 @@ import {
 }	from 'react-native';
 
 import colorPalette from '../utils/colors';
-
+import Icon from "react-native-vector-icons/MaterialIcons";
 import environmentVariables from '../utils/envVariables';
 
 import DB from '../utils/DB';
 
 const Init = () => {
+	const [loading,setLoading] = useState(false);
 
 
 const {select,insert} = DB();
@@ -30,23 +31,8 @@ const {select,insert} = DB();
 
 	}
 
-	useEffect(()=>{
-		var query = `INSERT INTO users(name,token,nit,string_nit,is_logged) VALUES(?,?,?,?,?);`;
-		var fields = ["kevin","AAA","123456","12456",1];
-		insert(query,fields,(result)=>{
-			console.log("Valores insertados");
-		});
-  },[])
 
 
-	useEffect(()=>{
-		console.log('AAAAAAAAAAAAAAAAA')
-			var query1 = `select * from users`;
-			select(query1,[],(dtess)=>{
-				console.log('Entrada Select')
-				console.log('Valores en db ',dtess)
-			})
-	},[])
 	// <TouchableOpacity style={styles.sendButtonP} onPress={nativeComponent}>
 	// 	<Text style={{color:'white',textAlign:'center',fontSize:environmentVariables.sunmiApp ? 20:25, fontFamily:'SansationBold'}} allowFontScaling={false}>Android</Text>
 	// </TouchableOpacity>
@@ -54,26 +40,39 @@ const {select,insert} = DB();
   return (
     <View style={styles.container}>
 
-	      <View style={styles.loaderContainer}>
-	        <ActivityIndicator visible={false} size='large' color={colorPalette.color}/>
-	        <Text allowFontScaling={false}>Cargando...</Text>
-	      </View>
+			{loading && (
+				<View style={styles.loaderContainer}>
+					<ActivityIndicator visible={false} size='large' color={colorPalette.color}/>
+					<Text allowFontScaling={false}>Cargando...</Text>
+				</View>
+			)}
 
 
+			{!loading && (
 
-        <View style={styles.textHeaderContainer}>
+			        <View style={styles.textHeaderContainer}>
 
-          <Text style={{ ...styles.textHeader, fontSize:environmentVariables.sunmiApp ? 25:30}} allowFontScaling={false}>¿Ya tienes usuario?</Text>
-        </View>
+			          <Text style={{ ...styles.textHeader, fontSize:environmentVariables.sunmiApp ? 25:30}} allowFontScaling={false}>¿Ya tienes usuario?</Text>
+			        </View>
+
+						)}
 
 
         <React.Fragment>
           <View style={styles.imageContainer}>
-
+					<Image
+						style={styles.image}
+						source={require('../img/Logo3.png')}
+					/>
           </View>
 
 					<View style={styles.imageContainerArrow}>
-
+						<Icon
+							name="arrow-downward"
+							color={colorPalette.rgbColorPurple}
+							size={50}
+							style={styles.icon}
+						/>
           </View>
 
 						<TouchableOpacity style={styles.sendButton} onPress={() => Actions.login()}>
