@@ -61,15 +61,17 @@ const Login = () =>{
 
 		if (nit.trim().length > 0 && username.trim().length > 0){
 			var userNameXML = `GT.${PadLeft(nit.trim(),12)}.${username.trim()}`;
-			
+
 		} else {
 			Alert.alert('Ingresar Nit y Usuario');
 		}
 	}
 
 	useEffect(()=>{
+		console.log('AAAAAAAAAAAAAAAAA')
       var query = `select * from loginusers`;
       select(query,[],(dtes)=>{
+				console.log('Entrada Select')
 				console.log('Valores en db ',dtes)
       })
   },[])
@@ -114,7 +116,7 @@ const Login = () =>{
 							style={loginStyles.input}
 							onChangeText={(e)=>{setNit(e)}}
 					    fontSize={environmentVariables.sunmiApp ? 15:20}
-							fontFamily = "AcuminVariableConcept"
+
 							placeholderTextColor={colorPalette.hexColorWhite}
 							 allowFontScaling={false}
 
@@ -127,7 +129,7 @@ const Login = () =>{
 							style={loginStyles.input}
 							onChangeText={(e)=>{setUsername(e)}}
 							fontSize={environmentVariables.sunmiApp ? 15:20}
-							fontFamily = "AcuminVariableConcept"
+
 							placeholderTextColor={colorPalette.hexColorWhite}
 							 allowFontScaling={false}
 
@@ -143,7 +145,7 @@ const Login = () =>{
 								onChangeText={(e)=>{setPassword(e)}}
 								secureTextEntry={vis}
 								fontSize={environmentVariables.sunmiApp ? 15:20}
-								fontFamily = "AcuminVariableConcept"
+
 								placeholderTextColor={colorPalette.hexColorWhite}
 								 allowFontScaling={false}
 
@@ -238,7 +240,7 @@ const loginStyles = StyleSheet.create({
 	textHeaderPass:{
     color:colorPalette.hexColorWhite,
     fontSize:15,
-		fontFamily: 'SansationBold',
+
 		alignItems:'center',
     justifyContent:'center',
 		textAlign: 'center',

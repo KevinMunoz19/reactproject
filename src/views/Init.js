@@ -146,7 +146,7 @@ const styles = StyleSheet.create({
 	textHeader:{
     color:'white',
     fontSize:25,
-		fontFamily: 'SansationBold',
+
   },
   textHeaderContainer:{
 		backgroundColor:colorPalette.rgbColorOrange,
