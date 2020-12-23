@@ -57,15 +57,7 @@ const Init = () => {
 
           </View>
 
-
-
-            <TouchableOpacity style={styles.sendButtonP} >
-              <Text style={{color:'white',textAlign:'center',fontSize:environmentVariables.sunmiApp ? 20:25}} allowFontScaling={false}>Ingresa tu NIT</Text>
-            </TouchableOpacity>
-
-
-
-						<TouchableOpacity style={styles.sendButton} >
+						<TouchableOpacity style={styles.sendButton} onPress={() => Actions.login()}>
               <Text style={{color:colorPalette.rgbColorPurple, textAlign:'center', fontSize:environmentVariables.sunmiApp ? 20:25}} allowFontScaling={false}>Iniciar Sesion</Text>
             </TouchableOpacity>
 
