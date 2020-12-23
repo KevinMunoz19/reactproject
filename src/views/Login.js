@@ -23,6 +23,9 @@ import colorPalette from '../utils/colors';
 
 import environmentVariables from '../utils/envVariables';
 
+import useUser from './../utils/useUser';
+import useApi from './../utils/useApi';
+
 
 
 import DB from '../utils/DB';
@@ -40,6 +43,10 @@ const Login = () =>{
 
 	const {select,insert} = DB();
 
+	const {setUser,getUser} = useUser();
+	const {login, forgotPassword} = useApi();
+	const [loading,setLoading] = useState(false);
+
 
 	function blankF() {
 
@@ -52,6 +59,56 @@ const Login = () =>{
 			}
 
 
+	}
+
+	function handlerSend(){
+		setLoading(true);
+		function PadLeft(value, length) {
+			return (value.toString().length < length) ? PadLeft("0" + value, length) : value;
+		}
+
+
+
+		login({
+			"Username":`GT.${PadLeft(nit,12)}.${username}`,
+			"Password":`${password}`
+		},(response)=>{
+			if(response!=null){
+				if(response.code == null){
+
+					var user = {
+						name:username,
+						nit:nit,
+						stringNit:response.otorgado_a,
+						token:response.Token
+					}
+					console.log("respuesta ",user);
+					setUser(user,(userInfo)=>{
+						setLoading(false);
+
+						// if (environmentVariables.gasApp){
+							Actions.loginuser();
+						// }else{
+						// 	Actions.home();
+						// }
+
+					});
+
+				}else{
+					setLoading(false);
+					if(response.code == 2001){
+						Alert.alert('Usuario o Clave invalida');
+					}else{
+						Alert.alert(response.message);
+					}
+
+				}
+			}
+		},(err)=>{
+			setLoading(false);
+
+			Alert.alert(`Error de la peticion -> ${err}`);
+		});
 	}
 
 	function tempPassword(){
@@ -175,7 +232,7 @@ const Login = () =>{
 					<ActivityIndicator visible={false} size='large' color={colorPalette.color}/>
 
 				<View style={loginStyles.buttonContainer}>
-					<TouchableOpacity style={loginStyles.button} onPress={blankF}>
+					<TouchableOpacity style={loginStyles.button} onPress={handlerSend}>
 						<Text style={{ ...loginStyles.buttonText, fontSize:environmentVariables.sunmiApp ? 20:25}} allowFontScaling={false}>Iniciar Sesion</Text>
 					</TouchableOpacity>
 				</View>
