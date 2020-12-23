@@ -487,7 +487,6 @@ const styles = StyleSheet.create({
   textHeader: {
     color: colorPalette.rgbColorPurple,
     fontSize: 45,
-    fontFamily: 'SansationBold',
   },
   textHeaderContainer: {
     width: '80%',
@@ -498,17 +497,14 @@ const styles = StyleSheet.create({
   textHeaderTitle: {
     color: 'white',
     fontSize: 12,
-    fontFamily: 'AcuminVariableConcept',
   },
   textHeaderData: {
     color: 'white',
     fontSize: 12,
-    fontFamily: 'SansationBold',
   },
   textHeaderDataS: {
     color: 'black',
     fontSize: 12,
-    fontFamily: 'SansationBold',
   },
   textHeaderContainerTitle: {
     flex: 0.3,

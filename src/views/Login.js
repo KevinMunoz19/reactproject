@@ -296,7 +296,6 @@ const loginStyles = StyleSheet.create({
 	textHeader:{
     color:colorPalette.hexColorWhite,
     fontSize:20,
-		fontFamily: 'SansationBold',
   },
   textHeaderContainer:{
     width:'50%',
@@ -313,7 +312,6 @@ const loginStyles = StyleSheet.create({
 	textHeaderSub:{
     color:colorPalette.hexColorWhite,
     fontSize:12,
-		fontFamily: 'AcuminVariableConcept',
 		alignItems:'center',
     justifyContent:'center',
 		textAlign: 'center',
@@ -334,7 +332,6 @@ const loginStyles = StyleSheet.create({
 	textHeaderPass:{
     color:colorPalette.hexColorWhite,
     fontSize:15,
-		fontFamily: 'SansationBold',
 		alignItems:'center',
     justifyContent:'center',
 		textAlign: 'center',
@@ -431,7 +428,6 @@ const loginStyles = StyleSheet.create({
 		// width: wp('100%'),
 		color:colorPalette.hexColorWhite,
     fontSize:20,
-		fontFamily: 'SansationBold',
 	},
 	inputHalf: {
 		flex: 3,
@@ -439,7 +435,6 @@ const loginStyles = StyleSheet.create({
 		borderBottomColor: '#DDDDDD',
 		color:colorPalette.hexColorWhite,
     fontSize:20,
-		fontFamily: 'SansationBold',
 		//borderBottomWidth: 1,
 	},
 	button:{
@@ -458,7 +453,6 @@ const loginStyles = StyleSheet.create({
 	buttonText:{
 		color:'white',
 		fontSize:20,
-		fontFamily:'SansationBold'
 	},
 
 
