@@ -33,9 +33,7 @@ const {select,insert} = DB();
 
 
 
-	// <TouchableOpacity style={styles.sendButtonP} onPress={nativeComponent}>
-	// 	<Text style={{color:'white',textAlign:'center',fontSize:environmentVariables.sunmiApp ? 20:25, fontFamily:'SansationBold'}} allowFontScaling={false}>Android</Text>
-	// </TouchableOpacity>
+
 
   return (
     <View style={styles.container}>
