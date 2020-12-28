@@ -31,7 +31,7 @@ const App = () => {
                     tabBarStyle={styles.tabBar}
                     activeBackgroundColor="white"
                     inactiveBackgroundColor="white"
-                    labelStyle={{color: 'black', alignSelf: 'center', fontSize:environmentVariables.sunmiApp ? 8:10, fontFamily:'AcuminVariableConcept'}}
+                    labelStyle={{color: 'black', alignSelf: 'center', fontSize:environmentVariables.sunmiApp ? 8:10}}
                     allowFontScaling={false}
                 >
             <Scene key="home" icon={HomeIcon} component={Home} hideNavBar={true} title="Home" lazy={true} />
@@ -60,7 +60,6 @@ const styles = StyleSheet.create({
   },
   tabBarText: {
     fontSize:10,
-    fontFamily: "SansationBold",
     color:colorPalette.hexColorOrange,
   },
 
